@@ -1,7 +1,7 @@
 package main
 
 func main() {
-
+cashback()
 }
 
 func cashback(amount int) int {
