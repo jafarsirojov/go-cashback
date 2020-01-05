@@ -11,7 +11,7 @@ func Test_cashback(t *testing.T) {
 	}{
 		// TODO: Add test cases.
 		{"Have cashback", 5000,250},
-		{"No cashback",  1000,250},
+		{"No cashback",  1000,0},
 		{"Cashback on bound", 3000,150},
 	}
 	for _, test := range tests {
